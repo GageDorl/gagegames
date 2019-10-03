@@ -74,3 +74,10 @@ img{
     background:rgb(190,40,40);
     color:white;
 }
+.navbar{
+    border-bottom:2px solid rgb(190,40,40);
+    margin-bottom:10px;
+}
+.row{
+    border-radius:20px;
+}
