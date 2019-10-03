@@ -1,6 +1,6 @@
 .card{
     color:rgb(255,255,255);
-    border:2px solid rgb(200,70,70);
+    
     border-radius:10px;
     margin:10px;
     background:rgb(200,70,70);
@@ -15,7 +15,7 @@
     text-align:left;
 }
 .jumbotron{
-    background: rgb(200,70,70);
+    background: rgb(0,0,255);
     color:white;
     text-align:center;
     font-weight:bold;
