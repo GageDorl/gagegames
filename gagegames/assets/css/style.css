@@ -52,8 +52,9 @@ a{
 a:hover{
     color:lightgrey;
 }
-img{
+#recentProjects img{
     width:250px;
+    margin:auto;
 }
 .btn-link{
     color:white;
@@ -80,4 +81,25 @@ img{
 }
 .row{
     border-radius:20px;
+}
+button{
+    margin:5px;
+}
+#dancerDiv{
+    height:550px;
+    width:450px;
+    background:white;
+    margin:20px auto;
+    border-radius:20px;
+    text-align:center;
+    
+}
+#dancerDiv img{
+    margin:0 5% -500px;
+    height:500px;
+    width:400px;
+    border:0;
+}
+#dancer{
+    float:center;
 }
