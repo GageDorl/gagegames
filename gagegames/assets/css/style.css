@@ -1,0 +1,69 @@
+.card{
+    color:rgb(255,255,255);
+    border:2px solid rgb(200,70,70);
+    border-radius:10px;
+    margin:10px;
+    background:rgb(200,70,70);
+}
+.card-header{
+    background: rgb(200,70,70);
+    font-weight: bold;
+}
+.card-body{
+    background: rgb(255,70,70);
+    border-radius:0 0 6.5px 6.5px;
+    text-align:left;
+}
+.jumbotron{
+    background: rgb(200,70,70);
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
+#recentProjects{
+    text-align: center;
+    width:60%;
+    border:solid 2px white;
+    border-radius:3px;
+    padding:10px;
+    height:400px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    margin:10px;
+   
+}
+::-webkit-scrollbar{
+    width:0;
+}
+#recentProjects::-webkit-scrollbar{
+    width:10px;
+    border-radius:3px;
+    background:rgb(243, 53, 95);
+}
+::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background:rgb(184, 0, 55);
+    width:10px;
+    height:2px;
+}
+a{
+    color:white;
+}
+a:hover{
+    color:lightgrey;
+}
+img{
+    width:250px;
+}
+.btn-link{
+    color:white;
+}
+.btn-link:hover{
+    color:lightgrey;
+}
+.accordion .card{
+    margin:0;
+}
+.accordion .card-header{
+    border-radius:2px;
+}
