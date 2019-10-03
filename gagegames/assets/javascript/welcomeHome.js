@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    if(localStorage.getItem('firstVisit')==null){
+        $('#allGoodStuff').hide()
+        $('#welcomeHome').show().delay(2000).fadeOut(1000)
+        $('#allGoodStuff').delay(2500).fadeIn(1000)
+        localStorage.setItem('firstVisit','notNull')
+    }
+    else{
+        $('#welcomeHome').hide();
+        $('#allGoodStuff').show();
+    }
+    })

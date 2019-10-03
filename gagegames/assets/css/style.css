@@ -11,7 +11,7 @@
 }
 .card-body{
     background: rgb(255,70,70);
-    border-radius:0 0 6.5px 6.5px;
+    border-radius: 6.5px;
     text-align:left;
 }
 .jumbotron{
@@ -92,14 +92,24 @@ button{
     margin:20px auto;
     border-radius:20px;
     text-align:center;
+    padding:400px 0 0;
+    text-shadow:
+        -1px -1px 0 #FFF,
+        1px -1px 0 #FFF,
+		-1px 1px 0 #FFF,
+		1px 1px 0 #FFF;
     
 }
 #dancerDiv img{
-    margin:0 5% -500px;
+    margin:-400px auto -100px;
     height:500px;
     width:400px;
     border:0;
 }
 #dancer{
     float:center;
+}
+#welcomeHome{
+    margin:0 auto -100%;
+    display:none;
 }
