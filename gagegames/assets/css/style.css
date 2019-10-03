@@ -67,3 +67,10 @@ img{
 .accordion .card-header{
     border-radius:2px;
 }
+.dropdown-item{
+    color:white;
+}
+.dropdown-item:hover{
+    background:rgb(190,40,40);
+    color:white;
+}
